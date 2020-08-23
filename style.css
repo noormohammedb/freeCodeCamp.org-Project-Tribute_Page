@@ -1,0 +1,13 @@
+/* fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #00000095;
+    font-family: 'Playfair Display', Roboto, 'Open Sans', sans-serif, Arial, Helvetica, sans-serif ;
+}
