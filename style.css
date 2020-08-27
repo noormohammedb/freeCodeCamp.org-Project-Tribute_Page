@@ -55,6 +55,7 @@ header{
 }
 .list-heading{
     font-size: 2rem;
+    text-align: center;
 }
 .lists{
     display: flex;
@@ -98,9 +99,6 @@ header{
 }
 
 @media(max-width: 800px){
-    body{
-        background: #6c3c7e;
-    }
     header{
         margin: auto 0;
     }
@@ -121,9 +119,6 @@ header{
     }
 }
 @media(max-width: 650px){
-    body{
-        background: #533c7e;
-    }
     header{
         font-size: 1.5rem;
     }
@@ -131,25 +126,29 @@ header{
         font-size: 0.8rem;
     }
     #img-caption{
-        /* background: #a9a; */
+        font-size: 0.85rem;
     }
     .list-heading{
         font-size: 1.7rem;
     }
-}
-@media(max-width: 480px){    
-    body{
-        background: #7e3c4a;
+    .quoat-div{
+        width: 90%;
     }
+    .footer{
+        font-size: 0.78rem;
+    }
+}
+@media(max-width: 480px){
     header{
         font-size: 1rem;
     }
     .list-heading{
         font-size: 1.4rem;
     }
-}
-@media(max-width: 300px){    
-    body{
-        background: #7e673c;
+    .footer{
+        margin-bottom: 0;
+        font-size: 0.76rem;
     }
+}
+@media(max-width: 300px){
 }
