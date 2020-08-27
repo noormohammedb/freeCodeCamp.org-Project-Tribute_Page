@@ -31,7 +31,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5vmin auto;
+    margin: 1rem auto;
     padding: 10px;
 }
 #image{
@@ -41,10 +41,14 @@ header{
 #img-caption{
     font-family: 'Times New Roman', Times, serif;
     padding: 15px 0;
+    text-align: center;
+    width: 75%;
     font-size: 0.85rem;
 }
 #tribute-info{
     display: flex;
+    width: 100%;
+    font-size: 0.85rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -59,7 +63,7 @@ header{
     padding: 1rem 3rem;
     font-family: 'open sans';
     font-size: 0.8rem;
-    width: 900px;
+    width: 70vw;
 }
 .bold-text{
     font-weight: 800;
@@ -83,10 +87,69 @@ header{
     display: flex;
     justify-content: center;
     font-family: sans-serif;
+    text-align: center;
+    color: #999;
     font-size: 1.2rem;
     font-weight: 600;
     margin: 3rem;
 }
 .footer a{
     color: #4BA3D6;
+}
+
+@media(max-width: 800px){
+    body{
+        background: #6c3c7e;
+    }
+    header{
+        margin: auto 0;
+    }
+    #img-caption{
+        font-size: 0.95rem;
+    }
+    .list-heading{
+        font-size: 1.8rem;
+    }
+    .lists{
+        width: 100%;
+        font-size: 0.95rem;
+    }
+    .footer{
+        margin-bottom: 5px;
+        font-size: 0.8rem;
+
+    }
+}
+@media(max-width: 650px){
+    body{
+        background: #533c7e;
+    }
+    header{
+        font-size: 1.5rem;
+    }
+    .heading-caption{
+        font-size: 0.8rem;
+    }
+    #img-caption{
+        /* background: #a9a; */
+    }
+    .list-heading{
+        font-size: 1.7rem;
+    }
+}
+@media(max-width: 480px){    
+    body{
+        background: #7e3c4a;
+    }
+    header{
+        font-size: 1rem;
+    }
+    .list-heading{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width: 300px){    
+    body{
+        background: #7e673c;
+    }
 }
